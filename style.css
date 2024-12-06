@@ -1,0 +1,209 @@
+.navbar {
+    background-color: #ffd1ef;
+    height: 100px;
+    margin: 20px;
+    border-radius: 16px;
+    padding:0.5rem;
+
+}
+.navbar-brand {
+    font-weight: 400;
+    color: #009970;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+.fillup-button {
+    background-color: #a54292;
+    color: #db8dc0;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.fillup-button:hover {
+    background-color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+
+font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #a54292;
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #fff;
+}
+@media (min-width: 991px) {
+.nav-link:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #a54292;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+}
+
+.intro-section {
+    background-color: #db8dc0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro-section::before {
+    background-color: #dca4c800;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.intro-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.intro-section h1 {
+    font-size: 2.5em;
+    font-family:Georgia;
+    color:#a54292;
+    font-weight: 600;
+}
+
+.intro-section h2 {
+    font-size: 3.2em;
+    font-family:Georgia;
+    color:#a54292;
+    font-weight: 600;
+    
+}
+.home-section {
+    background-color: #db8dc0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.home-section h1 {
+    font-size: 1.5em;
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+}
+.home-section h5 {
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+}
+.portfolio-section {
+    background-color: #db8dc0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.portfolio-section h1 {
+    font-size: 1.5em;
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+}
+.service-section {
+    background-color: #db8dc0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.service-section h1 {
+    font-size: 1.8em;
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+}
+.service-section h3 {
+    font-size: 1.5em;
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+}
+.service-section h5 {
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+}
+.about-section {
+    background-color: #db8dc0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.about-section h1{
+    font-size: 1.5em;
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+    text-align: center;
+}
+.about-section h2{
+    font-size: 1.5em;
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+    text-align: center;
+}
+.about-section h5 {
+    font-size: 1em;
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+    text-align:left;
+}
+.contact-section {
+    background-color: #db8dc0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.contact-section h1{
+    font-size: 1.5em;
+    font-family:Helvetica;
+    color:#a54292;
+    font-weight: 600;
+    text-align: center;
+}
+.home-section h5 {
+    font-family:Helvetica;
+    text-align:center;
+}
+.home-section h1{
+    font-family:Helvetica;
+    text-align:center;
+    font-weight: 600;
+} 
